@@ -44,9 +44,9 @@ this process according to the dependency level is demonstrated.
 
 
 ## Contenu du répertoire Git:
-- '111144776.pdf': l'essai en format pdf
-- 'Approximation_distribution_St.R': le document R où la distribution d'un accroissement d'un processus de renouvellement avec récompense est approximé conformément à la Section 2.2.3 de l'essai.
-- 'Fonctions_essai.R': L'essentiel des fonctions utilisées et l'appel des paquetages se fait ici.
-- 'Melange_Erlang.R': Ici, on fait l'approximation de distribution en utilisant un mélange d'Erlang pour produire les résultats de la Section 2.3 de l'essai.
-- 'Simulation_Parcours_St.R': Ici, on simule le *parcours* d'un processus de renouvellement avec récompense.
-- 'Simulation_processus_renouvellement_recompense.R': Ici, on présente l'algorithme de simulation présenté à la Section 2.1 de l'essai.
+- `111144776.pdf`: l'essai en format pdf
+- `Approximation_distribution_St.R`: le document R où la distribution d'un accroissement d'un processus de renouvellement avec récompense est approximé conformément à la Section 2.2.3 de l'essai.
+- `Fonctions_essai.R`: L'essentiel des fonctions utilisées et l'appel des paquetages se fait ici.
+- `Melange_Erlang.R`: Ici, on fait l'approximation de distribution en utilisant un mélange d'Erlang pour produire les résultats de la Section 2.3 de l'essai.
+- `Simulation_Parcours_St.R`: Ici, on simule le *parcours* d'un processus de renouvellement avec récompense.
+- `Simulation_processus_renouvellement_recompense.R`: Ici, on présente l'algorithme de simulation présenté à la Section 2.1 de l'essai.

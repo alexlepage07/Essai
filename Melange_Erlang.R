@@ -13,7 +13,7 @@ scale_W = 5 / gamma(1 + 1 / shape_W)
 Fw <- function(x) pweibull(x, shape_W, scale_W)
 
 # Paramètres de la loi de J
-m <- 8             # La longueur du vecteur de support de J est de 2^m
+m <- 10             # La longueur du vecteur de support de J est de 2^m
 j <- 0:(2 ^ m - 1)  # Vecteur de support de la v.a. J.
 
 prob_J <- 1/2              # Paramètre de la loi de J.
@@ -100,4 +100,9 @@ tbl_esperances <- cbind(h.w, tbl_esperances)
 
 dimnames(tbl_esperances) <- list(t_, c("h.w", aa))
 
+
+tbl_esperances_asympt <- cbind(h.w, tbl_esperances[,-1] / t_)
+
+
 xtable(tbl_esperances, digits=3)
+xtable(tbl_esperances_asympt, digits=3)

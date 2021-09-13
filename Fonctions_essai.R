@@ -47,7 +47,7 @@ distribution_copule_frank <- function(Fw, Fj, aa) {
    
    if (aa == 0) {
       mat.Fwj <- mat.Fw * mat.Fj
-   } else{
+   } else {
       mat.Fwj <-
          (-1 / aa) * log(1 + (exp(-aa * mat.Fw) - 1) * (exp(-aa * mat.Fj) - 1) /
                             (exp(-aa) - 1))

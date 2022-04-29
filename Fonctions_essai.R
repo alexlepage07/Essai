@@ -686,11 +686,11 @@ print_distribution_plots <- function(Fs, t_, aa, vecteur_support,
    )
    legend(
       "bottomright",
-      legend = c(TeX("$\\alpha = $-10 "),
-                 TeX("$\\alpha = $-5 "),
+      legend = c(TeX("$\\theta = $-10 "),
+                 TeX("$\\theta = $-5 "),
                  TeX("Independance"),
-                 TeX("$\\alpha = $ 5 "),
-                 TeX("$\\alpha = $ 10 ")),
+                 TeX("$\\theta = $ 5 "),
+                 TeX("$\\theta = $ 10 ")),
       col = 1:5,
       lty = 1:5,
       cex = 0.8,
@@ -733,11 +733,11 @@ print_AsymptoticDistribution_plots <-
       legend(
          "bottomright",
          legend = c(
-            TeX("$\\alpha = $-10 "),
-            TeX("$\\alpha = $-5 "),
+            TeX("$\\theta = $-10 "),
+            TeX("$\\theta = $-5 "),
             TeX("Independance"),
-            TeX("$\\alpha = $ 5 "),
-            TeX("$\\alpha = $ 10 "),
+            TeX("$\\theta = $ 5 "),
+            TeX("$\\theta = $ 10 "),
             TeX("$x=E\\[X\\]/E\\[W\\]$")
          ),
          col = 1:6,

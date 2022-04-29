@@ -105,4 +105,4 @@ tbl_esperances_asympt <- cbind(h.w, tbl_esperances[,-1] / t_)
 
 
 xtable(tbl_esperances, digits=3)
-xtable(tbl_esperances_asympt, digits=3)
+xtable(tbl_esperances_asympt, digits=4)
